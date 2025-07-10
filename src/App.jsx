@@ -100,6 +100,7 @@ const App = () => {
         {trendingMovies.length > 0 && (
           <section className="trending">
             <h2>Trending Movies</h2>
+            <h3>Based on your searches</h3>
 
             <ul>
               {trendingMovies.map((movie, index) => (
